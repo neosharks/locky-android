@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Locky</string>
+
+    <string name="accessibility_label">Locky Service</string>
+    <string name="accessibility_description">Lets Locky notice when a locked app opens so it can show the unlock screen. Locky never reads screen content.</string>
+
+    <string name="locked_apps">Locked apps</string>
+    <string name="choose_apps">Choose apps to lock</string>
+    <string name="empty_locked">Nothing locked yet.\nTap ＋ to let Locky guard an app.</string>
+
+    <string name="add">Add</string>
+    <string name="unlock">Unlock</string>
+    <string name="later">Later</string>
+    <string name="cancel">Cancel</string>
+
+    <!-- Biometric prompts (fingerprint only) -->
+    <string name="entry_title">Unlock Locky</string>
+    <string name="entry_subtitle">Use your fingerprint</string>
+    <string name="confirm_identity">Use your fingerprint</string>
+    <string name="fingerprint_only">Use your fingerprint</string>
+    <string name="lock_title">Lock “%1$s”?</string>
+    <string name="unlock_title">Unlock “%1$s”?</string>
+    <string name="lock_screen_subtitle">Locky’s got this — unlock with your fingerprint</string>
+
+    <!-- Permissions -->
+    <string name="perm_title">Permissions needed</string>
+    <string name="perm_intro">Locky needs two permissions to guard your apps:</string>
+    <string name="perm_overlay">Display over other apps — to show the unlock screen</string>
+    <string name="perm_accessibility">Accessibility — to detect which app is opening</string>
+    <string name="grant_overlay">Grant overlay</string>
+    <string name="open_accessibility">Open accessibility</string>
+
+    <!-- Home-screen icon long-press shortcuts -->
+    <string name="sc_lock_short">Lock</string>
+    <string name="sc_lock_long">Lock an app</string>
+    <string name="sc_unlock_short">Unlock</string>
+    <string name="sc_unlock_long">Unlock an app</string>
+
+    <!-- Content descriptions -->
+    <string name="cd_app_icon">App icon</string>
+    <string name="cd_locked">Locked</string>
+    <string name="cd_unlocked">Not locked</string>
+    <string name="cd_back">Back</string>
+    <string name="cd_mascot">Locky</string>
+</resources>

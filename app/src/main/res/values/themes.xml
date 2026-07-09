@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.AppLock" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">@color/purple_200</item>
+        <item name="android:statusBarColor">?attr/colorSurface</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+    </style>
+
+    <!-- Opaque lock screen shown over a locked app. It renders the same lock UI
+         as the service's bridge overlay, so swapping between them is invisible.
+         No preview window / no animation so the activity launch never flashes. -->
+    <style name="Theme.AppLock.Lock" parent="Theme.AppLock">
+        <item name="android:windowBackground">@color/lock_bg</item>
+        <item name="android:statusBarColor">@color/lock_bg</item>
+        <item name="android:navigationBarColor">@color/lock_bg</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowDisablePreview">true</item>
+    </style>
+
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Shown when you long-press AppLock's OWN icon on the home screen. -->
+    <shortcut
+        android:shortcutId="lock_app"
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_lock"
+        android:shortcutShortLabel="@string/sc_lock_short"
+        android:shortcutLongLabel="@string/sc_lock_long">
+        <intent
+            android:action="com.neosharks.locky.action.LOCK"
+            android:targetPackage="com.neosharks.locky"
+            android:targetClass="com.neosharks.locky.MainActivity" />
+    </shortcut>
+
+    <shortcut
+        android:shortcutId="unlock_app"
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_unlock"
+        android:shortcutShortLabel="@string/sc_unlock_short"
+        android:shortcutLongLabel="@string/sc_unlock_long">
+        <intent
+            android:action="com.neosharks.locky.action.UNLOCK"
+            android:targetPackage="com.neosharks.locky"
+            android:targetClass="com.neosharks.locky.MainActivity" />
+    </shortcut>
+
+</shortcuts>
