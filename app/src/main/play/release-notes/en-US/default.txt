@@ -1,0 +1,6 @@
+First release of Locky.
+• Lock any app behind your fingerprint.
+• Automatic re-lock when a locked app leaves the screen.
+• Fingerprint entry gate on Locky itself.
+• Home-screen shortcuts to quickly lock / unlock an app.
+100% on-device. No ads, no tracking, no accounts.

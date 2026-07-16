@@ -1,0 +1,24 @@
+Locky is a tiny, native app locker that guards your private apps behind your fingerprint — and nothing else. No PIN, no pattern, no cloud account, no ads, no tracking. Just your fingerprint.
+
+WHAT LOCKY DOES
+• Lock any installed app. When you open it, a full-screen gate asks for your fingerprint before it opens.
+• Cancel the prompt and you go back to your home screen — never into the locked app.
+• Re-locks automatically. The moment a locked app leaves the screen (Home, app switch, recents, or screen off) it locks again, so it always asks next time.
+• Entry gate. Opening Locky itself needs your fingerprint too.
+• Home-screen shortcuts. Long-press Locky's icon for quick "Lock an app" / "Unlock an app" actions.
+
+BUILT TO BE SMALL AND HONEST
+• Pure Kotlin + Android Views + Material 3. No heavy frameworks. Small download.
+• 100% on-device. Your list of locked apps is stored only on your phone.
+• No internet permission used for your data. No analytics. No accounts.
+
+PERMISSIONS LOCKY NEEDS (and why)
+• Display over other apps — to draw the unlock screen on top of a locked app.
+• Accessibility — to notice when a locked app opens so it can show the unlock screen. Locky does NOT read screen content (window-content retrieval is turned off).
+• Fingerprint (biometric) — to unlock.
+
+REQUIREMENTS
+• Android 11 or newer.
+• A fingerprint enrolled on your device (Locky is fingerprint-only by design — there is no PIN fallback).
+
+Locky keeps it simple: one job, done natively, with no data leaving your phone.
